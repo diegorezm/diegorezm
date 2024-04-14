@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Fullstack developer
 -------------------
 
-I'm a passionate junior Fullstack software developer I have a strong foundation in web development, with a primary focus on JavaScript and TypeScript.
+I'm a passionate junior Fullstack software developer I have a strong foundation in web development, with a primary focus on Typescript and Java.
 
 * 🌍  I'm based in Brazil
 * 🖥️  See my portfolio at [diegorezm.app](http://diegorezm.netlify.app/)
