@@ -4,6 +4,15 @@
 
 I am a Full Stack Developer from Brazil, currently studying Systems Analysis and Development.I have hands-on experience with Java and TypeScript, specializing in frameworks like Spring Boot and Next.js.
 
+# 🔧 Tools I Built:
+
+| name | description |
+|--|--|
+| [resumemk](https://github.com/diegorezm/resumemk) | CLI tool for converting Markdown into a styled PDF resume |
+| [wallpapercl](https://github.com/diegorezm/wallpapercl) | CLI tool to manage wallpapers, including a web server |
+| [job_search](https://github.com/diegorezm/job-search) | CLI tool for tracking job applications, also includes a web server |
+
+
 ## 🌐 Socials:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/diegorezm) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@diegomoura6910)
