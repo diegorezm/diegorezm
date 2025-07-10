@@ -1,4 +1,4 @@
-<img src="./header.png" alt="header">
+<img src="./header.jpg" alt="header">
 
 # 💫 About Me:
 
