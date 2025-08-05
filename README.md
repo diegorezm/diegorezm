@@ -8,7 +8,7 @@ I am a Full Stack Developer from Brazil, currently studying Systems Analysis and
 
 | name | description |
 |--|--|
-| [resumemk](https://github.com/diegorezm/resumemk) | CLI tool for converting Markdown into a styled PDF resume |
+| [resumemk](https://github.com/diegorezm/resumemk.cli) | CLI tool for converting Markdown into a styled PDF resume |
 | [wallpapercl](https://github.com/diegorezm/wallpapercl) | CLI tool to manage wallpapers, including a web server |
 | [job_search](https://github.com/diegorezm/job-search) | CLI tool for tracking job applications, also includes a web server |
 
