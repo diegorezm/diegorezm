@@ -1,4 +1,4 @@
-I am a full-stack developer. I like to build random stuff.
+Hello! My name is Diego. I am (usually) a full-stack web developer, mainly focusing on the Node/TypeScript ecosystem (sometimes).
 
 # Some projects i am proud of 
 
