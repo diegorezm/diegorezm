@@ -4,6 +4,8 @@ Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Nod
 
 Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
 
+📧 contact@diegorezm.xyz
+
 ## things I've built
 
 | project | what it is |
@@ -33,5 +35,3 @@ Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-
-📧 contact@diegorezm.xyz
