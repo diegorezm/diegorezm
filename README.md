@@ -11,7 +11,7 @@ Currently into: **benchmarking**, **Elixir/OTP**, **Rust**, and **Linux** (Hyprl
 | [eljobs](https://github.com/diegorezm/eljobs) | job queue from scratch in Elixir/OTP, load-tested to failure |
 | [FastShopping](https://github.com/diegorezm/FastShopping) | Spring Boot API squeezed to 3k concurrent users, p50 under 2ms |
 | [llm-notebook](https://github.com/diegorezm/llm-notebook) | ask your documents questions, fully offline |
-| [resumemk.cli](https://github.com/diegorezm/vibe) | vibe coding website |
+| [Vibe](https://github.com/diegorezm/vibe) | vibe coding website |
 | [space_invaders](https://github.com/diegorezm/space_invaders) | Space Invaders in C, compiled to WebAssembly |
 | [wallpapercl](https://github.com/diegorezm/wallpapercl) | TUI wallpaper switcher for Linux |
 
