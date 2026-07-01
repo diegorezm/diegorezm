@@ -2,7 +2,7 @@
 
 Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Node/TypeScript.
 
-Currently into: **benchmarking**, **Elixir/OTP**, **Rust**, and **Linux** (Hyprland daily driver).
+Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
 
 ## things I've built
 
