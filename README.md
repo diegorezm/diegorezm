@@ -2,8 +2,6 @@
 
 Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Node/TypeScript.
 
-Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
-
 📧 contact@diegorezm.xyz
 
 ## things I've built
@@ -17,7 +15,7 @@ Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
 | [space_invaders](https://github.com/diegorezm/space_invaders) | Space Invaders in C, compiled to WebAssembly |
 | [wallpapercl](https://github.com/diegorezm/wallpapercl) | TUI wallpaper switcher for Linux |
 
-**work**
+**Stack**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
@@ -27,7 +25,7 @@ Currently into: **benchmarking**, **Elixir/OTP**, **Web Dev**, and **Linux**.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
-**playground**
+**Other languages**
 
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
