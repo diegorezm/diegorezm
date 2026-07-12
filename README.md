@@ -8,12 +8,12 @@ Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Nod
 
 | project | what it is |
 |---|---|
+| [KVCluster](https://github.com/diegorezm/KVCluster) | Distributed Key-Value db built with java |
 | [eljobs](https://github.com/diegorezm/eljobs) | job queue from scratch in Elixir/OTP, load-tested to failure |
 | [FastShopping](https://github.com/diegorezm/FastShopping) | Spring Boot API squeezed to 3k concurrent users, p50 under 2ms |
 | [llm-notebook](https://github.com/diegorezm/llm-notebook) | ask your documents questions, fully offline |
 | [Vibe](https://github.com/diegorezm/vibe) | vibe coding website |
 | [space_invaders](https://github.com/diegorezm/space_invaders) | Space Invaders in C, compiled to WebAssembly |
-| [wallpapercl](https://github.com/diegorezm/wallpapercl) | TUI wallpaper switcher for Linux |
 
 **Stack**
 
