@@ -2,7 +2,7 @@
 
 Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Node/TypeScript.
 
-📧 contact@diegorezm.xyz
+📧 diegommrez12@gmail.com
 
 ## things I've built
 
