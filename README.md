@@ -1,6 +1,5 @@
 Hello! My name is Diego. I am a full-stack web developer, mainly focusing on Node/TypeScript. Currently, I am interested in distributed systems and learning how to manage projects at scale.
 
-📧 diegommrez12@gmail.com
 
 ## things I've built
 
