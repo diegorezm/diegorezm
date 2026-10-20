@@ -8,7 +8,7 @@
 
 ```console
 $ whoami
-diego rezende · dev + linux infra · brazil
+diego rezende · dev + infra · brazil
 
 $ cat status.txt
 ● open to work → dev · IT support · infra
