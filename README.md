@@ -29,16 +29,11 @@ I build web apps with **TypeScript, Next.js and PostgreSQL**, put them in **Dock
 | project | what it is |
 |---|---|
 | [me-candidatei](https://github.com/diegorezm/me-candidatei) | job application tracker: paste the link, confirm the data, follow the status |
-| [dtasks](https://github.com/diegorezm/dtasks) | real-time project management for companies and their customers |
 | [KVCluster](https://github.com/diegorezm/KVCluster) | distributed key-value database in Java |
 | [eljobs](https://github.com/diegorezm/eljobs) | job queue from scratch in Elixir/OTP, load-tested to failure |
 | [FastShopping](https://github.com/diegorezm/FastShopping) | Spring Boot API squeezed to 3k concurrent users, p50 under 2ms |
 | [llm-notebook](https://github.com/diegorezm/llm-notebook) | ask your documents questions, fully offline (Rust + Ollama) |
 | [space_invaders](https://github.com/diegorezm/space_invaders) | Space Invaders in C, compiled to WebAssembly |
-
-## 🧰 tools I use every day
-
-[dnotes](https://github.com/diegorezm/dnotes) (scriptable notes CLI in Go) · [sunaba](https://github.com/diegorezm/sunaba) (themeable new-tab page) · [dotfiles](https://github.com/diegorezm/dotfiles) (Emacs, of course)
 
 ## 🎒 inventory
 
