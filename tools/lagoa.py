@@ -141,12 +141,12 @@ class Svg:
         out = []
         for font, chars in self.used.items():
             fam, file, weight, style = FONT_FILES[font]
-            tt = TTFont(FONTS / file)
+            tt = TTFont(FONTS / file, recalcTimestamp=False)
             opts = Options()
             opts.flavor = "woff2"
             opts.layout_features = ["*"]
             sub = Subsetter(opts)
-            sub.populate(text="".join(chars) + " ")
+            sub.populate(text="".join(sorted(chars)) + " ")
             sub.subset(tt)
             buf = io.BytesIO()
             tt.flavor = "woff2"

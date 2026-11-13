@@ -22,21 +22,144 @@ github = "https://github.com/diegorezm"
 # Um bloco [[projects]] por projeto, na ordem em que aparecem.
 # Para remover, apague o bloco. Para adicionar, copie um e troque os campos.
 #   name         nome exibido
-#   url          link (repo ou site)
+#   url          link do repo
+#   site         opcional: link de demo/site
 #   description  uma frase sobre o que faz
 #   stack        tecnologias, separadas por " · "
-#   status       opcional: "building", "paused", "archived"...
+#   status       "building" (mexido nos últimos 2 meses) ou "done"; define a seção no README
+
+# ---- building
 
 [[projects]]
 name = "Grimo"
 url = "https://github.com/diegorezm/grimo"
-description = "A social network for readers: shelves, reviews and a monthly reading recap. Web and mobile."
+description = "A social network for readers: shelves, reviews, a feed and a monthly reading recap. Web and mobile."
 stack = "TypeScript · Cloudflare"
 status = "building"
 
 [[projects]]
 name = "Meu Edital"
 url = "https://github.com/diegorezm/meu-edital"
-description = "A study planner for public exams, with AI-imported exam notices."
+site = "https://meu-edital-site.diegommrez12.workers.dev"
+description = "A free study planner for public exams: builds a study cycle from the exam weights and turns studying into a game."
 stack = "TypeScript · Kotlin · AI"
 status = "building"
+
+[[projects]]
+name = "Leme"
+url = "https://github.com/diegorezm/leme"
+site = "https://diegorezm.github.io/leme/"
+description = "A fast, minimal, local-first PDF reader for Windows."
+stack = "Rust · Slint"
+status = "building"
+
+[[projects]]
+name = "dresume"
+url = "https://github.com/diegorezm/dresume"
+site = "https://diegorezm.github.io/dresume/"
+description = "Resume workspaces powered by Typst: one template, many resumes. Desktop app and CLI, built for AI agents."
+stack = "Rust · Tauri · Svelte · Typst"
+status = "building"
+
+[[projects]]
+name = "Pomolotl"
+url = "https://github.com/diegorezm/pomolotl"
+site = "https://diegorezm.github.io/pomolotl/"
+description = "A free, cozy Pomodoro timer with an axolotl friend. Windows, Linux and macOS."
+stack = "Rust · egui"
+status = "building"
+
+[[projects]]
+name = "dcom"
+url = "https://github.com/diegorezm/dcom"
+description = "Lightweight, self-hostable community chat: a native desktop client with a Convex backend."
+stack = "Rust · Convex"
+status = "building"
+
+[[projects]]
+name = "Distributed engineering path"
+url = "https://github.com/diegorezm/distributed-eng-learning-path"
+site = "https://diegorezm.github.io/distributed-eng-learning-path/"
+description = "Learning distributed systems from scratch: replication, Raft, sharding, messaging and observability."
+stack = "HTML · JavaScript"
+status = "building"
+
+[[projects]]
+name = "proposal-skill"
+url = "https://github.com/diegorezm/proposal-skill"
+description = "A Claude Code skill that turns an AI plan into a one-page visual proposal you can review and answer in a minute."
+stack = "Python · HTML"
+status = "building"
+
+[[projects]]
+name = "Sunaba"
+url = "https://github.com/diegorezm/sunaba"
+description = "A themeable new-tab start page for Chromium browsers, customizable with JSON."
+stack = "HTML · CSS · JavaScript"
+status = "building"
+
+# ---- done
+
+[[projects]]
+name = "dtasks"
+url = "https://github.com/diegorezm/dtasks"
+description = "A real-time project-management platform for companies and their customers."
+stack = "TypeScript · TanStack Start · Convex"
+status = "done"
+
+[[projects]]
+name = "KVCluster"
+url = "https://github.com/diegorezm/KVCluster"
+description = "A distributed key-value store built from scratch, inspired by Redis."
+stack = "Java 25"
+status = "done"
+
+[[projects]]
+name = "eljobs"
+url = "https://github.com/diegorezm/eljobs"
+description = "A job queue in pure Erlang/Elixir."
+stack = "Elixir"
+status = "done"
+
+[[projects]]
+name = "LLM Notebook"
+url = "https://github.com/diegorezm/llm-notebook"
+description = "Ask AI about your documents, fully offline, with a local LLM through Ollama."
+stack = "Rust · TypeScript · Ollama"
+status = "done"
+
+[[projects]]
+name = "dnotes"
+url = "https://github.com/diegorezm/dnotes"
+description = "A scriptable note-taking CLI for developer workflows."
+stack = "Go"
+status = "done"
+
+[[projects]]
+name = "Me Candidatei"
+url = "https://github.com/diegorezm/me-candidatei"
+description = "A job application tracker: paste the link, confirm the details and follow each application's status."
+stack = "TypeScript · TanStack Start"
+status = "done"
+
+[[projects]]
+name = "DFinance"
+url = "https://github.com/diegorezm/DFinance"
+description = "A simple, local, ad-free personal finance app based on the 50/30/20 rule."
+stack = "Kotlin · SQLite · Android · iOS"
+status = "done"
+
+[[projects]]
+name = "Lox interpreter"
+url = "https://github.com/diegorezm/lox-interpreter"
+description = "An interpreter for the Lox language."
+stack = "Zig"
+status = "done"
+
+[[projects]]
+name = "Space Invaders"
+url = "https://github.com/diegorezm/space_invaders"
+site = "https://diegorezm.github.io/space_invaders/"
+description = "Space Invaders in C with raylib, compiled to WebAssembly."
+stack = "C · raylib · WebAssembly"
+status = "done"

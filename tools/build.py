@@ -77,12 +77,20 @@ def readme(p, projects):
         f'<img src="assets/header-light.svg" alt="{alt}" width="100%"></picture></a>',
         "",
     ]
-    if projects:
-        out += ["### Projects", "", "| | Project | Stack |", "| :-- | :-- | :-- |"]
-        for i, pr in enumerate(projects, 1):
+    sections = [("building", "Building"), ("done", "Done")]
+    known = {k for k, _ in sections}
+    sections += [(st, st.capitalize()) for st in dict.fromkeys(pr.get("status", "done") for pr in projects) if st not in known]
+    i = 0
+    for key, title in sections:
+        rows = [pr for pr in projects if pr.get("status", "done") == key]
+        if not rows:
+            continue
+        out += [f"### {title}", "", "| | Project | Stack |", "| :-- | :-- | :-- |"]
+        for pr in rows:
+            i += 1
             name = f"**[{pr['name']}]({pr['url']})**" if pr.get("url") else f"**{pr['name']}**"
-            if pr.get("status"):
-                name += f" · <sub>{pr['status'].upper()}</sub>"
+            if pr.get("site"):
+                name += f" · [site ↗]({pr['site']})"
             out.append(f"| `{i:02d}` | {name}<br>{pr['description']} | `{pr['stack']}` |")
         out.append("")
     return "\n".join(out)
