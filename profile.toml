@@ -18,6 +18,10 @@ email = "diegommrez12@gmail.com"
 linkedin = "https://www.linkedin.com/in/diegorezm"
 github = "https://github.com/diegorezm"
 
+# só no banner do LinkedIn
+banner_line = "I build web and desktop apps and run the servers behind them."
+banner_stack = ["TypeScript", "Rust", "Linux"]
+
 # ------------------------------------------------------------------ projetos
 # Um bloco [[projects]] por projeto, na ordem em que aparecem.
 # Para remover, apague o bloco. Para adicionar, copie um e troque os campos.
