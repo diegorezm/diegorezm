@@ -13,8 +13,8 @@ from pathlib import Path
 
 from build import short
 from lagoa import (
-    ROOT, THEMES, Svg, birds, ghost, hill, hill_path, load_profile, meadow, measure, pine, river, round_tree,
-    strip, swimmer,
+    ROOT, THEMES, Svg, hill, hill_path, load_profile, meadow, measure, pine, river, round_tree,
+    strip,
 )
 
 W, H = 1584, 396
@@ -30,15 +30,13 @@ def banner(theme, p):
 
     # ---- landscape (the site footer, recomposed)
     s.add(f'<circle cx="300" cy="84" r="40" fill="{t["sun"]}"/>')
-    ghost(s, 372, 312, p["name"].split()[0], 214, anchor="start")
-    s.add(birds(560, 76, t, 1.6))
     far = hill(W, lambda x: 292 + max(0, x - 900) * 0.03, 12, 5, wl=(640, 340))
     s.add(hill_path(W, H, far, t["hill_far"]))
     for x, sz in [(120, 120), (172, 170), (230, 130)]:
         s.add(pine(x, far(x) + 30, sz, t))
     mid = hill(W, lambda x: 336, 8, 9, wl=(560, 300))
     s.add(hill_path(W, H, mid, t["hill_mid"]))
-    for x, sz in [(36, 110), (486, 110), (552, 70), (880, 84)]:
+    for x, sz in [(36, 110), (500, 96), (556, 62), (880, 84)]:
         s.add(round_tree(x, mid(x) + 8, sz, t))
     for x, sz in [(800, 120), (842, 90)]:
         s.add(pine(x, mid(x) + 10, sz, t))
@@ -47,18 +45,14 @@ def banner(theme, p):
     s.add(river(700, far(700) + 2, 18, 690, H, 300, t))
     s.add(meadow(0, 560, near, t, seed=3))
     s.add(meadow(840, W, near, t, seed=8))
-    swimmer(s, 692, 360, 66)
 
-    # ---- text block, right side
+    # ---- text block, right side. LinkedIn shows the banner at about half size,
+    # so everything here is drawn roughly twice as large as on the README header.
     x0 = 940
-    s.text(x0, 116, f"{p['name']}  ·  " + "  ·  ".join(p["tags"]), "mono5", 13, t["muted"], ls=2.6, upper=True)
-    s.text(x0 - 4, 196, p["headline"], "serif", 88, t["ink"], ls=-1.8)
-    s.text(x0, 256, p["headline_italic"], "serif-i", 62, t["muted"])
-
-
-    cells = [("Email", p["email"]), ("Website", short(p["site"])), ("GitHub", short(p["github"]))]
-    widths = [max(measure(l.upper(), "mono5", 10, 2), measure(v, "mono", 13)) + 58 for l, v in cells]
-    strip(s, W - 72 - sum(widths), 296, cells, widths)
+    s.text(x0, 100, "  ·  ".join(p["tags"]), "mono5", 20, t["muted"], ls=3.4, upper=True)
+    s.text(x0 - 5, 190, p["headline"], "serif", 100, t["ink"], ls=-2)
+    s.text(x0, 254, p["headline_italic"], "serif-i", 70, t["muted"])
+    strip(s, x0, 282, [("Website", short(p["site"])), ("GitHub", short(p["github"]))], k=1.4)
     return s
 
 

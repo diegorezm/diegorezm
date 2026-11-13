@@ -292,19 +292,19 @@ def birds(x, y, t, s=1.6):
     return f'<g class="bird">{"".join(out)}</g>'
 
 
-def strip(svg, x, y, cells, cell_w=None, h=58):
-    """Quick-links strip: paper-raised, radius-lg, shadow-float, hairlines between cells."""
+def strip(svg, x, y, cells, cell_w=None, h=58, k=1.0):
+    """Quick-links strip: paper-raised, radius-lg, shadow-float, hairlines between cells. k scales it."""
     t = svg.t
-    pad = 20
-    widths = cell_w or [max(measure(lbl.upper(), "mono5", 10, 2), measure(val, "mono", 13)) + 2 * pad + 18 for lbl, val in cells]
+    pad, h = 20 * k, h * k
+    widths = cell_w or [max(measure(lbl.upper(), "mono5", 10 * k, 2 * k), measure(val, "mono", 13 * k)) + 2 * pad + 18 * k for lbl, val in cells]
     total = sum(widths)
-    svg.add(f'<rect x="{x}" y="{y}" width="{total:.1f}" height="{h}" rx="16" fill="{t["raised"]}" filter="url(#float)"/>')
+    svg.add(f'<rect x="{x}" y="{y}" width="{total:.1f}" height="{h:.1f}" rx="{16 * k:.1f}" fill="{t["raised"]}" filter="url(#float)"/>')
     cx = x
     for i, ((lbl, val), cw) in enumerate(zip(cells, widths)):
         if i:
-            svg.add(f'<line x1="{cx:.1f}" y1="{y + 12}" x2="{cx:.1f}" y2="{y + h - 12}" stroke="{t["rule"]}"/>')
-        svg.text(cx + pad, y + 23, lbl, "mono5", 10, t["muted"], ls=2, upper=True)
-        svg.text(cx + pad, y + 43, val, "mono", 13, t["ink"])
-        svg.arrow(cx + cw - pad - 10, y + 13, t["muted"], 12)
+            svg.add(f'<line x1="{cx:.1f}" y1="{y + 12 * k:.1f}" x2="{cx:.1f}" y2="{y + h - 12 * k:.1f}" stroke="{t["rule"]}"/>')
+        svg.text(cx + pad, y + 23 * k, lbl, "mono5", 10 * k, t["muted"], ls=2 * k, upper=True)
+        svg.text(cx + pad, y + 43 * k, val, "mono", 13 * k, t["ink"])
+        svg.arrow(cx + cw - pad - 10 * k, y + 13 * k, t["muted"], 12 * k)
         cx += cw
     return total
