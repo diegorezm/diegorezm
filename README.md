@@ -23,8 +23,6 @@
 | `11` | **[KVCluster](https://github.com/diegorezm/KVCluster)**<br>A distributed key-value store built from scratch, inspired by Redis. | `Java 25` |
 | `12` | **[eljobs](https://github.com/diegorezm/eljobs)**<br>A job queue in pure Erlang/Elixir. | `Elixir` |
 | `13` | **[LLM Notebook](https://github.com/diegorezm/llm-notebook)**<br>Ask AI about your documents, fully offline, with a local LLM through Ollama. | `Rust · TypeScript · Ollama` |
-| `14` | **[dnotes](https://github.com/diegorezm/dnotes)**<br>A scriptable note-taking CLI for developer workflows. | `Go` |
-| `15` | **[Me Candidatei](https://github.com/diegorezm/me-candidatei)**<br>A job application tracker: paste the link, confirm the details and follow each application's status. | `TypeScript · TanStack Start` |
-| `16` | **[DFinance](https://github.com/diegorezm/DFinance)**<br>A simple, local, ad-free personal finance app based on the 50/30/20 rule. | `Kotlin · SQLite · Android · iOS` |
-| `17` | **[Lox interpreter](https://github.com/diegorezm/lox-interpreter)**<br>An interpreter for the Lox language. | `Zig` |
-| `18` | **[Space Invaders](https://github.com/diegorezm/space_invaders)** · [site ↗](https://diegorezm.github.io/space_invaders/)<br>Space Invaders in C with raylib, compiled to WebAssembly. | `C · raylib · WebAssembly` |
+| `14` | **[DFinance](https://github.com/diegorezm/DFinance)**<br>A simple, local, ad-free personal finance app based on the 50/30/20 rule. | `Kotlin · SQLite · Android · iOS` |
+| `15` | **[Lox interpreter](https://github.com/diegorezm/lox-interpreter)**<br>An interpreter for the Lox language. | `Zig` |
+| `16` | **[Space Invaders](https://github.com/diegorezm/space_invaders)** · [site ↗](https://diegorezm.github.io/space_invaders/)<br>Space Invaders in C with raylib, compiled to WebAssembly. | `C · raylib · WebAssembly` |
