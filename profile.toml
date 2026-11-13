@@ -1,0 +1,42 @@
+# Fonte única do README e do banner do LinkedIn.
+# Edite aqui e rode:  python tools/build.py   (README + header)
+#                     python tools/linkedin.py (banner do LinkedIn)
+# No GitHub, um push que mude este arquivo regenera o README sozinho.
+
+[profile]
+name = "Diego Rezende"
+role = "Full-stack developer"
+tags = ["Dev", "Linux", "Infra"]
+headline = "Software"
+headline_italic = "developer."
+lead = "I'm a full-stack developer. I build web and desktop apps with TypeScript and Rust, and look after the Linux servers that keep them running."
+available = true                      # false esconde o "Open to work"
+status_note = "Open to dev, support or infra roles."
+location = "BR · UTC−3"
+site = "https://diegorezm.github.io"
+email = "diegommrez12@gmail.com"
+linkedin = "https://www.linkedin.com/in/diegorezm"
+github = "https://github.com/diegorezm"
+
+# ------------------------------------------------------------------ projetos
+# Um bloco [[projects]] por projeto, na ordem em que aparecem.
+# Para remover, apague o bloco. Para adicionar, copie um e troque os campos.
+#   name         nome exibido
+#   url          link (repo ou site)
+#   description  uma frase sobre o que faz
+#   stack        tecnologias, separadas por " · "
+#   status       opcional: "building", "paused", "archived"...
+
+[[projects]]
+name = "Grimo"
+url = "https://github.com/diegorezm/grimo"
+description = "A social network for readers: shelves, reviews and a monthly reading recap. Web and mobile."
+stack = "TypeScript · Cloudflare"
+status = "building"
+
+[[projects]]
+name = "Meu Edital"
+url = "https://github.com/diegorezm/meu-edital"
+description = "A study planner for public exams, with AI-imported exam notices."
+stack = "TypeScript · Kotlin · AI"
+status = "building"
