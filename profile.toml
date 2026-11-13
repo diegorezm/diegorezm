@@ -129,20 +129,6 @@ stack = "Rust · TypeScript · Ollama"
 status = "done"
 
 [[projects]]
-name = "dnotes"
-url = "https://github.com/diegorezm/dnotes"
-description = "A scriptable note-taking CLI for developer workflows."
-stack = "Go"
-status = "done"
-
-[[projects]]
-name = "Me Candidatei"
-url = "https://github.com/diegorezm/me-candidatei"
-description = "A job application tracker: paste the link, confirm the details and follow each application's status."
-stack = "TypeScript · TanStack Start"
-status = "done"
-
-[[projects]]
 name = "DFinance"
 url = "https://github.com/diegorezm/DFinance"
 description = "A simple, local, ad-free personal finance app based on the 50/30/20 rule."
